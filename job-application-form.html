@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application Form</title>
+  <style>
+    h1{
+      color:blue;
+      text-align: center;
+
+    }
+    .fn1{
+      text-align: center;
+      margin-bottom:0px
+    }
+    .fn2{
+      text-align: left;
+      vertical-align: middle;
+      margin-top: 5px;
+      margin-left: 700px;
+    }
+    .button{
+      background-color: green;
+      color:white;
+      border: none;
+      border-radius: 5px;
+    
+    }
+
+  </style>
+</head>
+<body>
+  <h1>
+    Job Application Form
+  </h1>
+  <fieldset><legend>Personal Info</legend>
+  <p class="fn1">
+    First Name
+  </p>
+
+  <input class="fn2" type="text" placeholder="First Name">
+  <p class="fn1">
+    Second Name
+  </p>
+
+  <input class="fn2" type="text" placeholder="Second Name">
+  <p class="fn1">
+    Email
+  </p>
+
+  <input class="fn2" type="email" placeholder="Email">
+  <p class="fn1">
+    Phone
+  </p>
+
+  <input class="fn2" type="integer" placeholder="First Name">
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Job Details</legend>
+    <p class="fn1">
+      Position Applied
+    </p>
+    <select name="" id="position-applied" class="fn2">
+      <option value="HR">HR</option>
+      <option value="Data Analyst">Data Analyst</option>
+      <option vlaue="Full Stack Web Developer">Full Stack Web Developer</option>
+
+    </select>
+    <p class="fn1"> Year of Experience</p>
+    <input type="number" class="fn2">
+
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>
+      Availability
+    </legend>
+    <p class="fn1">
+      Availability Start
+    </p>
+    <input type="date" class="fn2">
+    <p class="fn1">
+      Willing to Relocate
+    </p>
+    <input type="checkbox" class="fn2" id="Willing to Relocate">
+    <label for="Willing to Relocate" >yes</label>
+    <input type="checkbox"  id="Willing to Relocate">
+    <label for ="Willing to Relocate">no</label>
+  </fieldset>
+  <button class="button">
+    Submit
+  </button>
+</body>
+</html>
